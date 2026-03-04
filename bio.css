@@ -1,0 +1,79 @@
+/* Base */
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100dvw;
+    background: black;
+    color: black;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    width: 100%; 
+    max-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* Nav */
+.nav {
+    padding: 1rem;
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Title */
+.welcome {
+    padding: 5dvw;
+}
+
+.title, 
+.description {
+    margin: 0;
+}
+
+.title {
+    font-size: clamp(3rem, 7dvw + 1rem, 100px);
+}
+
+.description {
+    font-size: 20px;
+}
+
+/* Bio Section */
+.bio-container {
+    width: 100%;
+}
+
+.bio-header {
+    background: black;
+    padding: 0.5rem;
+}
+
+.bio-header h2 {
+    color: white;
+}
+
+.bio-section p {
+    padding: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background: black;
+    color: white;
+}
